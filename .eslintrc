@@ -1,0 +1,16 @@
+{
+	"plugins": ["react"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:react/jsx-runtime",
+		"plugin:react-hooks/recommended"
+	],
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": 2015,
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	}
+}
