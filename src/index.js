@@ -1,5 +1,5 @@
 import { render } from 'react-dom';
-import { Navbar } from './componentts/navbar';
+import { Navbar } from './components/navbar';
 
 function App() {
 	return <Navbar />;
