@@ -1,12 +1,12 @@
 const Navbar = () => {
 	return (
 		<div className="navbar">
-			<a href="#">
-				<img>
-					<use href="31072020_geiger-logo_rgb.svg"></use>
-				</img>
+			<a href="#" className="logo">
+				<img src="31072020_geiger-logo_rgb.svg" alt="logo" height={50}></img>
 			</a>
-			<div>Download Toolbox</div>
+			<a href="#" className="btn">
+				Download Toolbox
+			</a>
 		</div>
 	);
 };
